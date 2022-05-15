@@ -1,0 +1,65 @@
+/* =================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+/* =================================== */
+/* 
+(Oder statt left und right = 0
+Mit with:100%) */
+/* Sticky Navbar */
+/* ======================
+    article - grid areas
+========================*/
+/* ======================
+section - flex in grid
+========================*/
+/* offset-x | offset-y | blur-radius | color */
+body {
+  background-color: #FAF0CA;
+  font-family: sans-serif;
+}
+body main {
+  background-color: #0D3B66;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20vh;
+  background-color: rgb(90, 78, 78);
+  color: whitesmoke;
+}
+
+form {
+  color: #F4D35E;
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 2rem;
+}
+form p {
+  color: steelblue;
+}
+form label {
+  padding-bottom: 10vh;
+}
+form input {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  min-width: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */

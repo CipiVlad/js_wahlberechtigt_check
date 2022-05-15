@@ -1,0 +1,47 @@
+// sass --watch assets/scss/main.scss assets/css/style.css
+
+@import "_generals.scss";
+@import "_mixin.scss";
+@import "_variables.scss";
+
+
+body {
+    background-color: $beige;
+    font-family: sans-serif;
+
+    main {
+        background-color: $blue;
+
+    }
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 20vh;
+    background-color: $bg;
+    color: whitesmoke;
+}
+
+form {
+    color: $yellow-napoli;
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 2rem;
+
+    p {
+        color: steelblue;
+    }
+
+    label {}
+
+    input {
+        display: block;
+        // margin-top: 10px;
+        padding: 10px;
+        margin: 0 auto;
+        min-width: 200px;
+    }
+
+}
